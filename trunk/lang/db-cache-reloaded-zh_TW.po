@@ -1,0 +1,190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Daniel Fruyski
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/db-cache-reloaded\n"
+"POT-Creation-Date: 2009-12-06 15:40+0000\n"
+"PO-Revision-Date: 2011-04-21 14:20+0800\n"
+"Last-Translator: neverweep <neverweepwebmaster@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Traditional Chinese\n"
+"X-Poedit-Country: Taiwan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+
+#: db-cache-reloaded.php:157
+msgid "<b>DB Cache Reloaded Error:</b> <code>wpdb</code> class is redefined, plugin cannot work!"
+msgstr "<b>DB Cache Reloaded 錯誤：</b> <code>wpdb</code> 類被重定義，外掛程式不能工作！"
+
+#: db-cache-reloaded.php:160
+#, php-format
+msgid "Previous definition is at %s."
+msgstr "前一定義在 %s。"
+
+#: db-cache-reloaded.php:169
+#, php-format
+msgid "<b>DB Cache Reloaded Info:</b> caching is not enabled. Please go to the <a href=\"%s\">Options Page</a> to enable it."
+msgstr "<b>DB Cache Reloaded 資訊：</b> 快取功能沒有被開啟，請進入 <a href=\"%s\">設置頁面</a> 開啟。"
+
+#: db-cache-reloaded.php:173
+#, php-format
+msgid "<b>DB Cache Reloaded Error:</b> DB Module (<code>wpdb</code> class) is not loaded. Please open the <a href=\"%1$s\">Options Page</a>, disable caching (remember to save options) and enable it again. If this will not help, please check <a href=\"%2$s\">FAQ</a> how to do manual upgrade."
+msgstr "<b>DB Cache Reloaded 錯誤：</b>資料庫模組 (<code>wpdb</code> 類) 沒有被載入。 請打開 <a href=\"%1$s\">設置頁面</a>，關閉快取功能(記得保存設置) 後再開啟。如果仍然不起效， 請參考 <a href=\"%2$s\">FAQ</a> 說明手動更新。"
+
+#: db-cache-reloaded.php:186
+#, php-format
+msgid "<b>DB Cache Reloaded Error:</b> DB Module is not up to date (detected version %1$s instead of %2$s). In order to fix this, please open the <a href=\"%3$s\">Options Page</a>, disable caching (remember to save options) and enable it again."
+msgstr "<b>DB Cache Reloaded 錯誤：</b>資料庫模組沒有被更新(偵測到的版本 %1$s 替代版本 %2$s)。修復此錯誤，請打開 <a href=\"%3$s\">設置頁面</a>，關閉快取功能(記得保存設置) 後再開啟。"
+
+#: db-cache-reloaded.php:251
+msgid "Caching activated."
+msgstr "快取功能已開啟。"
+
+#: db-cache-reloaded.php:255
+msgid "Caching can't be activated. Please <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"blank\">chmod 755</a> <u>wp-content</u> folder"
+msgstr "快取功能不能被開啟。請把<u>wp-content</u>目錄設置为<a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"blank\">chmod 755</a>許可權。"
+
+#: db-cache-reloaded.php:272
+msgid "Caching deactivated. Cache files deleted."
+msgstr "快取功能被關閉。已删除快取檔。"
+
+#: db-cache-reloaded.php:330
+msgid "<!-- Generated in {timer} seconds. Made {queries} queries to database and {cached} cached queries. Memory used - {memory} -->"
+msgstr ""
+
+#: db-cache-reloaded.php:352
+msgid "Cache files deleted."
+msgstr "已删除快取檔。"
+
+#: db-cache-reloaded.php:360
+msgid "Expired cache files deleted."
+msgstr "已刪除過期的快取檔。"
+
+#: db-cache-reloaded.php:399
+msgid "Settings saved."
+msgstr "設置已被保存。"
+
+#: db-cache-reloaded.php:403
+msgid "Settings can't be saved. Please <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"blank\">chmod 755</a> file <u>config.ini</u>"
+msgstr "設置不能被保存。請把<u>config.ini</u>文件設置成<a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"blank\">chmod 755</a>許可權。"
+
+#: db-cache-reloaded.php:411
+msgid "DB Cache Reloaded - Options"
+msgstr "DB Cache Reloaded - 設置"
+
+#: db-cache-reloaded.php:413
+msgid "Configuration"
+msgstr "設置"
+
+#: db-cache-reloaded.php:416
+msgid "Enable"
+msgstr "開啟"
+
+#: db-cache-reloaded.php:419
+msgid "Expire a cached query after"
+msgstr "快取文件過期於"
+
+#: db-cache-reloaded.php:420
+msgid "minutes. <em>(Expired files are deleted automatically)</em>"
+msgstr "分之後。<em>(過期快取檔將被自動刪除)</em>"
+
+#: db-cache-reloaded.php:424
+msgid "Additional options"
+msgstr "附加設置"
+
+#: db-cache-reloaded.php:427
+msgid "Cache filter"
+msgstr "快取篩檢程式"
+
+#: db-cache-reloaded.php:428
+msgid "Do not cache queries that contains this input contents. Divide different filters with '|' (vertical line, e.g. '_posts|_postmeta')"
+msgstr "不快取含有這些標記的內容，標記之間用 '|'分開(如：'_posts|_postmeta')"
+
+#: db-cache-reloaded.php:431
+msgid "Load stats template"
+msgstr "載入狀態範本"
+
+#: db-cache-reloaded.php:432
+msgid "It shows resources usage statistics in your template footer. To disable view just leave this field empty.<br/>{timer} - generation time, {queries} - count of queries to DB, {cached} - cached queries, {memory} - memory"
+msgstr "在頁面底部顯示資源使用統計資訊，清空以上內容可以關閉此功能。<br/>{timer} - 頁面生成時間，{queries} - 資料庫查詢次數，{cached} - 已快取的查詢, {memory} - 記憶體使用"
+
+#: db-cache-reloaded.php:436
+msgid "Advanced"
+msgstr "進階設置"
+
+#: db-cache-reloaded.php:440
+msgid "Wrapper Mode uses different method to load DB Module. It is less efficient (at least one query is not cached; some plugins may increase this number) and a bit slower. It allows to use DB Cache Reloaded along with incompatible plugins, which tries to load its own DB Module. You can try it if your cached query count is zero or -1."
+msgstr "外覆模式使用了不同的方式來快取資料庫查詢。這種模式效率較低(至少有一次查詢沒有被快取，一些外掛程式可能會增加這個數量)，而且有一點慢。此模式可以最大程度相容某些需載入資料庫模組的外掛程式，當你的快取數量為\"0\"或\"-1時，你可以試試這種模式。"
+
+#: db-cache-reloaded.php:443
+#, php-format
+msgid "Wrapper Mode requires at least PHP 5, and you are using PHP %s now. Please read the <a href=\"http://codex.wordpress.org/Switching_to_PHP5\">Switching to PHP5</a> article for information how to switch to PHP 5."
+msgstr "外覆模式需要PHP 5 或更新的版本，如果你正在使用PHP %，請閱讀<a href=\"http://codex.wordpress.org/Switching_to_PHP5\">Switching to PHP5</a>來獲取如何切換至PHP 5 的資訊。"
+
+#: db-cache-reloaded.php:449
+msgid "Wrapper Mode is <strong>Enabled</strong>. In order to disable it, please disable cache first."
+msgstr "外覆模式已被<strong>開啟</strong>。如果想要關閉此功能，請先關閉快取功能。"
+
+#: db-cache-reloaded.php:451
+msgid "Wrapper Mode is <strong>Disabled</strong>. In order to enable it, please disable cache first."
+msgstr "外覆模式已被<strong>關閉</strong>。如果想要開啟此功能，請先關閉快取功能。"
+
+#: db-cache-reloaded.php:455
+msgid "Enable Wrapper Mode"
+msgstr "開啟外覆模式"
+
+#: db-cache-reloaded.php:461
+msgid "Save"
+msgstr "保存"
+
+#: db-cache-reloaded.php:462
+msgid "Clear the cache"
+msgstr "清空快取"
+
+#: db-cache-reloaded.php:463
+msgid "Clear the expired cache"
+msgstr "清空過期快取"
+
+#: db-module-wrapper.php:265
+#: db-module.php:1383
+#, php-format
+msgid "<b>DB Cache Reloaded Error:</b> cannot include <code>db-functions.php</code> file. Please either reinstall plugin or remove <code>%s</code> file."
+msgstr "<b>DB Cache Reloaded 錯誤：</b>不能載入<code>db-functions.php</code>文件。請重新安裝外掛程式或者刪除<code>%s</code>文件。"
+
+#: db-module.php:1302
+#, php-format
+msgid "<strong>ERROR</strong>: WordPress %s requires MySQL 4.0.0 or higher"
+msgstr "<strong>錯誤</strong>：WordPress %s 需要MySQL 4.0.0 或更新的版本"
+
+#. Plugin Name of an extension
+msgid "DB Cache Reloaded"
+msgstr ""
+
+#. Plugin URI of an extension
+msgid "http://www.poradnik-webmastera.com/projekty/db_cache_reloaded/"
+msgstr ""
+
+#. Description of an extension
+msgid "The fastest cache engine for WordPress, that produces cache of database queries with easy configuration. (Disable and enable caching after update)"
+msgstr "WordPress最快的快取引擎，只需簡單的設置便可以快取資料庫的查詢。（更新後關閉再啟用外掛程式）"
+
+#. Author of an extension
+msgid "Daniel Fruyski"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://www.poradnik-webmastera.com/"
+msgstr ""
+
+#: db-cache-reloaded.php:419
+msgid "DB Cache Reloaded Fix By Ivan - Options"
+msgstr "DB Cache Reloaded Fix By Ivan - 設置"
+

@@ -1,0 +1,274 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DB Cache Reloaded v2.0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2010-06-05 21:03+0100\n"
+"Last-Translator: Carsten Tauber <carsten.tauber@greatsolution.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:157
+msgid "<b>DB Cache Reloaded Error:</b> <code>wpdb</code> class is redefined, plugin cannot work!"
+msgstr "<b>DB Reloaded Cache-Fehler:</b> <code>wpdb</code> Klasse wurde erneut definiert, Plugin funktioniert nicht!"
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:160
+#, php-format
+msgid "Previous definition is at %s."
+msgstr "Zurück Definition ist bei% s."
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:169
+#, php-format
+msgid "<b>DB Cache Reloaded Info:</b> caching is not enabled. Please go to the <a href=\"%s\">Options Page</a> to enable it."
+msgstr "<b>DB Cache Reloaded Info:</b> Caching ist inaktiv. Bitte in den <a href=\"%s\">Optionen</a> aktivieren."
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:173
+#, php-format
+msgid "<b>DB Cache Reloaded Error:</b> DB Module (<code>wpdb</code> class) is not loaded. Please open the <a href=\"%1$s\">Options Page</a>, disable caching (remember to save options) and enable it again. If this will not help, please check <a href=\"%2$s\">FAQ</a> how to do manual upgrade."
+msgstr "<b>DB Cache Reloaded Fehler:</b> DB-Modul (<code>wpdb</code> Klasse) ist nicht geladen. Bitte Caching abschalten und anschliessend erneut aktivieren <a href=\"%1$s\">Optionen</a>. Sofern dies den Fehler nicht beseitigt, bitte ein Plugin-Upgrade in Erwägung ziehen <a href=\"%2$s\">FAQ</a>."
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:186
+#, php-format
+msgid "<b>DB Cache Reloaded Error:</b> DB Module is not up to date (detected version %1$s instead of %2$s). In order to fix this, please open the <a href=\"%3$s\">Options Page</a>, disable caching (remember to save options) and enable it again."
+msgstr "<b>DB Cache Reloaded Error:</b> DB-Modul ist nicht aktuell (erkannte Version %1$s anstelle von%2$s). Um dies zu beheben, bitte Caching abschalten, anschliessend wieder aktivieren. <a href=\"%3$s\">Optionen</a>."
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:247
+msgid "Caching activated."
+msgstr "Caching aktiviert."
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:251
+msgid "Caching can't be activated. Please <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"blank\">chmod 755</a> <u>wp-content</u> folder"
+msgstr "Caching konnte nicht aktiviert werden. Bitte <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"_blank\">chmod 755</a> für das Verzeichnis <u>wp-content</u>"
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:268
+msgid "Caching deactivated. Cache files deleted."
+msgstr "Caching deaktiviert. Cachedateien erfolgreich gelöscht."
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:326
+msgid "<!-- Generated in {timer} seconds. Made {queries} queries to database and {cached} cached queries. Memory used - {memory} -->"
+msgstr "<!-- Generiert in {timer} Sekunden. {queries} Quer8es direkt an die Datenbank gestellt und {cached} zwischengespeicherte Queries. Verwendeter Speicher: {memory} -->"
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:348
+msgid "Cache files deleted."
+msgstr "Cachedateien erfolgreich gelöscht."
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:356
+msgid "Expired cache files deleted."
+msgstr "Veraltete Cachedateien erfolgreich gelöscht."
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:395
+msgid "Settings saved."
+msgstr "Einstellungen gespeichert"
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:399
+msgid "Settings can't be saved. Please <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"blank\">chmod 755</a> file <u>config.ini</u>"
+msgstr "Einstellungen konnten nicht gespeichert werden. Bitte <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"blank\">chmod 755</a> für die Datei <u>config.ini</u>"
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:407
+msgid "DB Cache Reloaded - Options"
+msgstr "DB Cache Reloaded - Optionen"
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:409
+msgid "Configuration"
+msgstr "Einstellungen"
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:412
+msgid "Enable"
+msgstr "Aktivieren"
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:415
+msgid "Expire a cached query after"
+msgstr "Cache soll ablaufen nach"
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:416
+msgid "minutes. <em>(Expired files are deleted automatically)</em>"
+msgstr "Minuten. <em>(Abgelaufen Dateien werden automatisch gelöscht)</em>"
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:420
+msgid "Additional options"
+msgstr "Zusätzliche Einstellungen"
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:423
+msgid "Cache filter"
+msgstr "Cache-Filter"
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:424
+msgid "Do not cache queries that contains this input contents. Divide different filters with '|' (vertical line, e.g. '_posts|_postmeta')"
+msgstr "Cachen von Seiten verhindern, welche diesen Inhalt haben. Trenne verschiedene Filter mit '|' (vertikale Linie, z.B. '_posts|_postmeta')"
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:427
+msgid "Load stats template"
+msgstr "Lade Statistik Vorlage"
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:428
+msgid "It shows resources usage statistics in your template footer. To disable view just leave this field empty.<br/>{timer} - generation time, {queries} - count of queries to DB, {cached} - cached queries, {memory} - memory"
+msgstr "Statistik der Ressourcenauslastung in der Fusszeile (als Kommentar im Quellcode)"
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:432
+msgid "Advanced"
+msgstr "Erweitert"
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:436
+msgid "Wrapper Mode uses different method to load DB Module. It is less efficient (at least one query is not cached; some plugins may increase this number) and a bit slower. It allows to use DB Cache Reloaded along with incompatible plugins, which tries to load its own DB Module. You can try it if your cached query count is zero or -1."
+msgstr "Wrapper-Modus verwendet verschiedene Verfahren um das DB Modul zu laden. Dieser Modus ist weniger effizient (mindestens eine Abfrage wird nicht zwischengespeichert, einige Plugins können diese Zahl zusätzlich erhöhen). Der Modus erlaubt, den DB-Cache auch für sonst unkompatible Plugins zu verwenden, das diese ein eigenes DB-Modul laden. "
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:439
+#, php-format
+msgid "Wrapper Mode requires at least PHP 5, and you are using PHP %s now. Please read the <a href=\"http://codex.wordpress.org/Switching_to_PHP5\">Switching to PHP5</a> article for information how to switch to PHP 5."
+msgstr "Wrapper-Modus benötigt mindestens PHP 5, aktuell steht PHP% s zur Verfüugn. Bitte lesen Sie die <a href=\"http://codex.wordpress.org/Switching_to_PHP5\">Umstellung auf PHP5</a> Artikel um weitere Informationen zu erhalten."
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:445
+msgid "Wrapper Mode is <strong>Enabled</strong>. In order to disable it, please disable cache first."
+msgstr "Wrapper-Modus <strong>aktiviert</strong>. Um diesen zu deaktivieren, bitte erst das Caching abschalten!"
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:447
+msgid "Wrapper Mode is <strong>Disabled</strong>. In order to enable it, please disable cache first."
+msgstr "Wrapper-Modus <strong>deaktiviert.</strong> Um diesen zu aktivieren, bitte zuerst den Cache abschalten."
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:451
+msgid "Enable Wrapper Mode"
+msgstr "Wrapper Mode aktivieren"
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:457
+msgid "Save"
+msgstr "Sichern"
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:458
+msgid "Clear the cache"
+msgstr "Cache leeren"
+
+#@ db-cache-reloaded
+#: db-cache-reloaded.php:459
+msgid "Clear the expired cache"
+msgstr "abgelaufenen Cache löschen"
+
+#@ db-cache-reloaded
+#: db-module-wrapper.php:265
+#: db-module.php:1389
+#, php-format
+msgid "<b>DB Cache Reloaded Error:</b> cannot include <code>db-functions.php</code> file. Please either reinstall plugin or remove <code>%s</code> file."
+msgstr "<b>DB Reloaded Cache-Fehler:</b> kann <code>db-functions.php</code> nicht einbinden. Bitte reinstallieren Sie das Plugin oder entfernen Sie die <code>%s</code> Datei."
+
+#@ {php-code}
+#. Not gettexted string WP_I18N_DB_GETROW_ERROR
+#: db-module-wrapper.php:326
+#: db-module.php:1135
+msgid " $db->get_row(string query, output type, int offset) -- Output type must be one of: OBJECT, ARRAY_A, ARRAY_N"
+msgstr " $db->get_row(string query, output type, int offset) -- Output type must be one of: OBJECT, ARRAY_A, ARRAY_N"
+
+#: db-module.php:1303
+#, php-format
+msgid "<strong>ERROR</strong>: WordPress %s requires MySQL 4.0.0 or higher"
+msgstr "<strong>FEHLER:</strong> WordPress% s benötigt MySQL 4.0.0 oder höher"
+
+#: db-module.php:1307
+#, php-format
+msgid "<strong>ERROR</strong>: WordPress %s requires MySQL 4.1.2 or higher"
+msgstr "<strong>FEHLER:</strong> WordPress% s benötigt MySQL 4.1.2 oder höher"
+
+#@ {php-code}
+#. Not gettexted string WP_I18N_DB_CONN_ERROR
+#: db-module.php:456
+msgid ""
+"\n"
+"<h1>Error establishing a database connection</h1>\n"
+"<p>This either means that the username and password information in your <code>wp-config.php</code> file is incorrect or we can't contact the database server at <code>%s</code>. This could mean your host's database server is down.</p>\n"
+"<ul>\n"
+"\t<li>Are you sure you have the correct username and password?</li>\n"
+"\t<li>Are you sure that you have typed the correct hostname?</li>\n"
+"\t<li>Are you sure that the database server is running?</li>\n"
+"</ul>\n"
+"<p>If you're unsure what these terms mean you should probably contact your host. If you still need help you can always visit the <a href='http://wordpress.org/support/'>WordPress Support Forums</a>.</p>\n"
+msgstr ""
+"\n"
+"<h1>Error establishing a database connection</h1>\n"
+"<p>This either means that the username and password information in your <code>wp-config.php</code> file is incorrect or we can't contact the database server at <code>%s</code>. This could mean your host's database server is down.</p>\n"
+"<ul>\n"
+"\t<li>Are you sure you have the correct username and password?</li>\n"
+"\t<li>Are you sure that you have typed the correct hostname?</li>\n"
+"\t<li>Are you sure that the database server is running?</li>\n"
+"</ul>\n"
+"<p>If you're unsure what these terms mean you should probably contact your host. If you still need help you can always visit the <a href='http://wordpress.org/support/'>WordPress Support Forums</a>.</p>\n"
+
+#@ {php-code}
+#. Not gettexted string WP_I18N_DB_BAD_PREFIX
+#: db-module.php:556
+msgid "Invalid database prefix"
+msgstr "Invalid database prefix"
+
+#@ {php-code}
+#. Not gettexted string WP_I18N_DB_SELECT_DB
+#: db-module.php:587
+msgid ""
+"\n"
+"<h1>Can&#8217;t select database</h1>\n"
+"<p>We were able to connect to the database server (which means your username and password is okay) but not able to select the <code>%1$s</code> database.</p>\n"
+"<ul>\n"
+"<li>Are you sure it exists?</li>\n"
+"<li>Does the user <code>%2$s</code> have permission to use the <code>%1$s</code> database?</li>\n"
+"<li>On some systems the name of your database is prefixed with your username, so it would be like <code>username_%1$s</code>. Could that be the problem?</li>\n"
+"</ul>\n"
+"<p>If you don't know how to setup a database you should <strong>contact your host</strong>. If all else fails you may find help at the <a href=\"http://wordpress.org/support/\">WordPress Support Forums</a>.</p>"
+msgstr ""
+"\n"
+"<h1>Can&#8217;t select database</h1>\n"
+"<p>We were able to connect to the database server (which means your username and password is okay) but not able to select the <code>%1$s</code> database.</p>\n"
+"<ul>\n"
+"<li>Are you sure it exists?</li>\n"
+"<li>Does the user <code>%2$s</code> have permission to use the <code>%1$s</code> database?</li>\n"
+"<li>On some systems the name of your database is prefixed with your username, so it would be like <code>username_%1$s</code>. Could that be the problem?</li>\n"
+"</ul>\n"
+"<p>If you don't know how to setup a database you should <strong>contact your host</strong>. If all else fails you may find help at the <a href=\"http://wordpress.org/support/\">WordPress Support Forums</a>.</p>"
+
+#@ {php-code}
+#. Not gettexted string WP_I18N_DB_QUERY_ERROR_FULL
+#: db-module.php:717
+msgid "WordPress database error %1$s for query %2$s made by %3$s"
+msgstr "WordPress database error %1$s for query %2$s made by %3$s"
+
+#@ {php-code}
+#. Not gettexted string WP_I18N_DB_QUERY_ERROR
+#: db-module.php:719
+msgid "WordPress database error %1$s for query %2$s"
+msgstr "WordPress database error %1$s for query %2$s"
+

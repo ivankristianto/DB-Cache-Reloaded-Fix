@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Daniel Fruyski
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/db-cache-reloaded\n"
+"POT-Creation-Date: 2009-12-06 15:40+0000\n"
+"PO-Revision-Date: 2010-04-07 18:19+0900\n"
+"Last-Translator: wokamoto <wokamoto1973@gmail.com>\n"
+"Language-Team: JAPANESE <http://wppluginsj.sourceforge.jp/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+
+#: db-cache-reloaded.php:157
+msgid "<b>DB Cache Reloaded Error:</b> <code>wpdb</code> class is redefined, plugin cannot work!"
+msgstr "<strong>DB Cache Reloaded エラー:</strong> <code>wpdb</code> クラスが再定義されているため、プラグインが動作できません!"
+
+#: db-cache-reloaded.php:160
+#, php-format
+msgid "Previous definition is at %s."
+msgstr "以前の定義は、%sです。"
+
+#: db-cache-reloaded.php:169
+#, php-format
+msgid "<b>DB Cache Reloaded Info:</b> caching is not enabled. Please go to the <a href=\"%s\">Options Page</a> to enable it."
+msgstr "<strong>DB Cache Reloaded 情報:</strong> キャッシュは無効です。<a href=\"%s\">オプションページ</a>で有効にしてください。"
+
+#: db-cache-reloaded.php:173
+#, php-format
+msgid "<b>DB Cache Reloaded Error:</b> DB Module (<code>wpdb</code> class) is not loaded. Please open the <a href=\"%1$s\">Options Page</a>, disable caching (remember to save options) and enable it again. If this will not help, please check <a href=\"%2$s\">FAQ</a> how to do manual upgrade."
+msgstr "<strong>DB Cache Reloaded エラー:</strong> DBモジュール(<code>wpdb</code>クラス)はロードされませんでした。<a href=\"%1$s\">オプションページ</a>でキャッシュを無効にし (忘れずに設定を保存してください)、ふたたび有効にしてみてください。それでも解決しない場合は、手動アップグレードするために<a href=\"%2$s\">FAQ</a>をチェックしてみてください。"
+
+#: db-cache-reloaded.php:186
+#, php-format
+msgid "<b>DB Cache Reloaded Error:</b> DB Module is not up to date (detected version %1$s instead of %2$s). In order to fix this, please open the <a href=\"%3$s\">Options Page</a>, disable caching (remember to save options) and enable it again."
+msgstr "<strong>DB Cache Reloaded エラー:</strong> DBモジュールが最新ではありません(検出されたバージョン %1$s 、要求されるバージョン %2$s)。修復するには<a href=\"%1$s\">オプションページ</a>でキャッシュを無効にし (忘れずに設定を保存してください)、ふたたび有効にしてみてください。"
+
+#: db-cache-reloaded.php:251
+msgid "Caching activated."
+msgstr "キャッシュは動作しています。"
+
+#: db-cache-reloaded.php:255
+msgid "Caching can't be activated. Please <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"blank\">chmod 755</a> <u>wp-content</u> folder"
+msgstr "キャッシュは動作していません。<u>wp-content</u> フォルダのパーミッションを <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"blank\">755</a>  に変更してください。"
+
+#: db-cache-reloaded.php:272
+msgid "Caching deactivated. Cache files deleted."
+msgstr "キャッシュを無効にし、キャッシュファイルを削除しました。"
+
+#: db-cache-reloaded.php:330
+msgid "<!-- Generated in {timer} seconds. Made {queries} queries to database and {cached} cached queries. Memory used - {memory} -->"
+msgstr ""
+
+#: db-cache-reloaded.php:352
+msgid "Cache files deleted."
+msgstr "キャッシュファイルを削除しました。"
+
+#: db-cache-reloaded.php:360
+msgid "Expired cache files deleted."
+msgstr "期限切れになったキャッシュファイルを削除しました。"
+
+#: db-cache-reloaded.php:399
+msgid "Settings saved."
+msgstr "設定を保存しました。"
+
+#: db-cache-reloaded.php:403
+msgid "Settings can't be saved. Please <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"blank\">chmod 755</a> file <u>config.ini</u>"
+msgstr "設定を保存できませんでした。<u>config.ini</u> ファイルのパーミッションを <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"blank\">755</a> に変更してください。"
+
+#: db-cache-reloaded.php:411
+msgid "DB Cache Reloaded - Options"
+msgstr "DB Cache Reloaded - オプション"
+
+#: db-cache-reloaded.php:413
+msgid "Configuration"
+msgstr "基本オプション"
+
+#: db-cache-reloaded.php:416
+msgid "Enable"
+msgstr "有効"
+
+#: db-cache-reloaded.php:419
+msgid "Expire a cached query after"
+msgstr "キャッシュの有効期限"
+
+#: db-cache-reloaded.php:420
+msgid "minutes. <em>(Expired files are deleted automatically)</em>"
+msgstr "分 <em>(期限が切れたキャッシュファイルは自動的に削除されます)</em>"
+
+#: db-cache-reloaded.php:424
+msgid "Additional options"
+msgstr "追加オプション"
+
+#: db-cache-reloaded.php:427
+msgid "Cache filter"
+msgstr "キャッシュフィルタ"
+
+#: db-cache-reloaded.php:428
+msgid "Do not cache queries that contains this input contents. Divide different filters with '|' (vertical line, e.g. '_posts|_postmeta')"
+msgstr "キャッシュ対象にしたくないクエリを含む文字列を入力してください。複数指定したい場合は '|' によって列挙してください。(例: '_posts|_postmeta' )"
+
+#: db-cache-reloaded.php:431
+msgid "Load stats template"
+msgstr "リソース使用統計テンプレート"
+
+#: db-cache-reloaded.php:432
+msgid "It shows resources usage statistics in your template footer. To disable view just leave this field empty.<br/>{timer} - generation time, {queries} - count of queries to DB, {cached} - cached queries, {memory} - memory"
+msgstr "フッタにリソース使用統計を表示するためのテンプレートです。フッタに何も表示したくなければ、このフィールドを空にしておいてください。<br />{timer} - キャッシュ生成にかかった時間, {queries} - DBに対するクエリ数, {cached} - キャッシュされたクエリ数, {memory} - メモリー"
+
+#: db-cache-reloaded.php:436
+msgid "Advanced"
+msgstr "詳細"
+
+#: db-cache-reloaded.php:440
+msgid "Wrapper Mode uses different method to load DB Module. It is less efficient (at least one query is not cached; some plugins may increase this number) and a bit slower. It allows to use DB Cache Reloaded along with incompatible plugins, which tries to load its own DB Module. You can try it if your cached query count is zero or -1."
+msgstr "ラッパーモードは、通常とは異なる方法でDBモジュールをロードします。通常の方法よりも効率的ではなく（少なくとも1つのクエリがキャッシュされません； いくつかのプラグインでは、さらにキャッシュできないクエリ数が増えるでしょう）、少し遅いです。DB Cache Reloaded と互換性の無いプラグインを使用する際、このモードを選択してください。また、クエリがキャッシュされない（キャッシュされたクエリ数が0か-1）場合にも、このモードを試してみてください。"
+
+#: db-cache-reloaded.php:443
+#, php-format
+msgid "Wrapper Mode requires at least PHP 5, and you are using PHP %s now. Please read the <a href=\"http://codex.wordpress.org/Switching_to_PHP5\">Switching to PHP5</a> article for information how to switch to PHP 5."
+msgstr "ラッパーモードは少なくとも PHP 5 を必要としますが、現在 PHP %s を使っています。ラッパーモードを使用するためには PHP 5 に切り替えてください。PHP 5 に切り替えるには <a href=\"http://codex.wordpress.org/Switching_to_PHP5\">Switching to PHP5</a> というエントリが役に立つでしょう。"
+
+#: db-cache-reloaded.php:449
+msgid "Wrapper Mode is <strong>Enabled</strong>. In order to disable it, please disable cache first."
+msgstr "ラッパーモードは<strong>有効</strong>です。無効にするためには、一度キャッシュを無効にしてから、設定してください。"
+
+#: db-cache-reloaded.php:451
+msgid "Wrapper Mode is <strong>Disabled</strong>. In order to enable it, please disable cache first."
+msgstr "ラッパーモードは<strong>無効</strong>です。有効にするためには、一度キャッシュを無効にしてから、設定してください。"
+
+#: db-cache-reloaded.php:455
+msgid "Enable Wrapper Mode"
+msgstr "ラッパーモードを有効にします"
+
+#: db-cache-reloaded.php:461
+msgid "Save"
+msgstr "保存"
+
+#: db-cache-reloaded.php:462
+msgid "Clear the cache"
+msgstr "キャッシュファイルを削除する"
+
+#: db-cache-reloaded.php:463
+msgid "Clear the expired cache"
+msgstr "期限切れのキャッシュファイルを削除する"
+
+#: db-module-wrapper.php:265
+#: db-module.php:1383
+#, php-format
+msgid "<b>DB Cache Reloaded Error:</b> cannot include <code>db-functions.php</code> file. Please either reinstall plugin or remove <code>%s</code> file."
+msgstr "<strong>DB Cache Reloaded エラー:</strong> <code>db-functions.php</code> をインクルードできませんでした。プラグインを再インストールするか、<code>%s</code> ファイルを削除してください。"
+
+#: db-module.php:1302
+#, php-format
+msgid "<strong>ERROR</strong>: WordPress %s requires MySQL 4.0.0 or higher"
+msgstr "<strong>エラー</strong>: WordPress %s には MySQL 4.0.0 以上が必要です。"
+
+#. Plugin Name of an extension
+msgid "DB Cache Reloaded"
+msgstr ""
+
+#. Plugin URI of an extension
+msgid "http://www.poradnik-webmastera.com/projekty/db_cache_reloaded/"
+msgstr ""
+
+#. Description of an extension
+msgid "The fastest cache engine for WordPress, that produces cache of database queries with easy configuration. (Disable and enable caching after update)"
+msgstr "簡単な設定で、データベースクエリをキャッシングする WordPress 用のキャッシュエンジンです。 （アップデートする際は無効にしてから、アップデート後に有効にしてください）"
+
+#. Author of an extension
+msgid "Daniel Fruyski"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://www.poradnik-webmastera.com/"
+msgstr ""
+

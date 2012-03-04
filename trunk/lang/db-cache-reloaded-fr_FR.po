@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Daniel Fruyski
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/db-cache-reloaded\n"
+"POT-Creation-Date: 2009-12-06 15:40+0000\n"
+"PO-Revision-Date: 2011-10-18 16:26-0800\n"
+"Last-Translator: Mike Arias <mikea@inmotionhosting.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+
+#: db-cache-reloaded.php:157
+msgid "<b>DB Cache Reloaded Error:</b> <code>wpdb</code> class is redefined, plugin cannot work!"
+msgstr "<b>DB Erreur de rechargement de la mémoire cache:</b> <code>wpdp</code> classe est redéfinie, l'extension ne peut pas fonctionner! "
+
+#: db-cache-reloaded.php:160
+#, php-format
+msgid "Previous definition is at %s."
+msgstr "Définition précédente est à %s."
+
+#: db-cache-reloaded.php:169
+#, php-format
+msgid "<b>DB Cache Reloaded Info:</b> caching is not enabled. Please go to the <a href=\"%s\">Options Page</a> to enable it."
+msgstr "<b>DB Information de la mémoire cache rechargée:</b>mise en cache n'est pas activée. Veuillez vous rendre à <a href=\"%s\">Page d'options</a> afin de l'activée. "
+
+#: db-cache-reloaded.php:173
+#, php-format
+msgid "<b>DB Cache Reloaded Error:</b> DB Module (<code>wpdb</code> class) is not loaded. Please open the <a href=\"%1$s\">Options Page</a>, disable caching (remember to save options) and enable it again. If this will not help, please check <a href=\"%2$s\">FAQ</a> how to do manual upgrade."
+msgstr "<b>DB Erreur de la mémoire cache rechargée: </b> DB Module (<code>wpdb</code>class) n'est pas chargé. Veuillez ouvrir la <a href=\"%1$s\">Page d'options</a>, désactivez la mise en cache (n'oubliez pas de sauvegarder les options) et activée là de nouveau. Si cela ne vous aide pas, <a href=\"%2$s\">veuillez vérifier comment faire une mis à niveau manuelle</a>."
+
+#: db-cache-reloaded.php:186
+#, php-format
+msgid "<b>DB Cache Reloaded Error:</b> DB Module is not up to date (detected version %1$s instead of %2$s). In order to fix this, please open the <a href=\"%3$s\">Options Page</a>, disable caching (remember to save options) and enable it again."
+msgstr "<b>DB Erreur de la mémoire cache rechargée: </b> DB Module n'est pas à jour (version détecter %1$s au lieu de %2$s). Afin de résoudre ce problème, veuillez ouvrir la <a href=\"%3$s\">Page d'Options</a>, désactivez la mise en cache (n'oubliez pas de sauvegarder les options) et activer là de nouveau. "
+
+#: db-cache-reloaded.php:251
+msgid "Caching activated."
+msgstr "Mise en cache activée."
+
+#: db-cache-reloaded.php:255
+msgid "Caching can't be activated. Please <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"blank\">chmod 755</a> <u>wp-content</u> folder"
+msgstr "Mise en cache ne peut pas être activée. Veuillez <a href=\"http://codex.wordpress.org/changing_file_Permissions\" target=\"blank\">chmod 755</a> <u> wp-content</u> dossier."
+
+#: db-cache-reloaded.php:272
+msgid "Caching deactivated. Cache files deleted."
+msgstr "Mise en cache désactivée. Fichiers de la mémoire cache supprimés."
+
+#: db-cache-reloaded.php:330
+msgid "<!-- Generated in {timer} seconds. Made {queries} queries to database and {cached} cached queries. Memory used - {memory} -->"
+msgstr "<!-- Générer en {timer} secondes. Faites {queries} les requêtes de base de données et {cached} les requêtes de la mémoire cache. Mémoire utilisée - {memory} -->"
+
+#: db-cache-reloaded.php:352
+msgid "Cache files deleted."
+msgstr "Fichiers de la mémoire cache effacés. "
+
+#: db-cache-reloaded.php:360
+msgid "Expired cache files deleted."
+msgstr "Fichiers périmés de la mémoire cache effacés. "
+
+#: db-cache-reloaded.php:399
+msgid "Settings saved."
+msgstr "Réglages enregistrés."
+
+#: db-cache-reloaded.php:403
+msgid "Settings can't be saved. Please <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"blank\">chmod 755</a> file <u>config.ini</u>"
+msgstr "Réglages ne peuvent pas être enregistrés. Veuillez <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target=\"blank\">chmod 755</a>file <u>config.ini</u>"
+
+#: db-cache-reloaded.php:411
+msgid "DB Cache Reloaded - Options"
+msgstr "DB la mémoire cache recharger – Options"
+
+#: db-cache-reloaded.php:413
+msgid "Configuration"
+msgstr "Configuration"
+
+#: db-cache-reloaded.php:416
+msgid "Enable"
+msgstr "Activer "
+
+#: db-cache-reloaded.php:419
+msgid "Expire a cached query after"
+msgstr "Périmé une requête de la mémoire cache."
+
+#: db-cache-reloaded.php:420
+msgid "minutes. <em>(Expired files are deleted automatically)</em>"
+msgstr "Minutes. <em>(Fichiers expirés sont automatiquement supprimés)</em>"
+
+#: db-cache-reloaded.php:424
+msgid "Additional options"
+msgstr "Options supplémentaires"
+
+#: db-cache-reloaded.php:427
+msgid "Cache filter"
+msgstr "Filtre de la mémoire cache"
+
+#: db-cache-reloaded.php:428
+msgid "Do not cache queries that contains this input contents. Divide different filters with '|' (vertical line, e.g. '_posts|_postmeta')"
+msgstr "Ne mettez pas les requêtes de la mémoire cache qui contiennent cette entrée contenu. Diviser les différents filtres avec des '|' (ligne verticale, par exemple '_posts|_postmeta')"
+
+#: db-cache-reloaded.php:431
+msgid "Load stats template"
+msgstr "Chargez le modèle statistique "
+
+#: db-cache-reloaded.php:432
+msgid "It shows resources usage statistics in your template footer. To disable view just leave this field empty.<br/>{timer} - generation time, {queries} - count of queries to DB, {cached} - cached queries, {memory} - memory"
+msgstr "Ça présente les ressources statistique d'utilisation de votre modèle de pied de page. Pour désactiver cette mode laissez ce champ de saisie vide. <br/> {timer} – durée de génération, {queries} – nombres de requêtes à DB, {cached} – requêtes de la mémoire cache, {memory} – mémoire"
+
+#: db-cache-reloaded.php:436
+msgid "Advanced"
+msgstr "Avancé"
+
+#: db-cache-reloaded.php:440
+msgid "Wrapper Mode uses different method to load DB Module. It is less efficient (at least one query is not cached; some plugins may increase this number) and a bit slower. It allows to use DB Cache Reloaded along with incompatible plugins, which tries to load its own DB Module. You can try it if your cached query count is zero or -1."
+msgstr "Wrapper Mode utilise des différentes méthodes pour charger le module DB. C'est moins efficace (au moins une requête n'est pas à la mémoire cache;Certaines extensions peuvent augmenter ce nombre) et un peu plus lent. Il vous permet d'utiliser la DB mémoire cache rechargée  avec les extensions incompatible, qui essaie de charger son propre module DB. Vous pouvez l'essayer si votre requête est zéro ou -1. "
+
+#: db-cache-reloaded.php:443
+#, php-format
+msgid "Wrapper Mode requires at least PHP 5, and you are using PHP %s now. Please read the <a href=\"http://codex.wordpress.org/Switching_to_PHP5\">Switching to PHP5</a> article for information how to switch to PHP 5."
+msgstr "Wrapper Mode nécessite au moins PHP 5, et en ce moment, vous utilisez PHP %s. Veuillez lire l' <a href=\"http:codex.wordpress.org/Switching_to_PHP5\">Switching to PHP5</a> article pour plus d'informations sur la façon de changer à PHP 5. "
+
+#: db-cache-reloaded.php:449
+msgid "Wrapper Mode is <strong>Enabled</strong>. In order to disable it, please disable cache first."
+msgstr "Wrapper Mode est <strong>activée</strong>. Afin de le désactiver, veuillez premièrement désactiver la mémoire cache. "
+
+#: db-cache-reloaded.php:451
+msgid "Wrapper Mode is <strong>Disabled</strong>. In order to enable it, please disable cache first."
+msgstr "Wrapper Mode est <strong>désactivée</strong>. Afin de le désactiver, veuillez premièrement désactiver la mémoire cache. "
+
+#: db-cache-reloaded.php:455
+msgid "Enable Wrapper Mode"
+msgstr "Activer Wrapper Mode"
+
+#: db-cache-reloaded.php:461
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: db-cache-reloaded.php:462
+msgid "Clear the cache"
+msgstr "Effacer la mémoire cache"
+
+#: db-cache-reloaded.php:463
+msgid "Clear the expired cache"
+msgstr "Effacer la mémoire cache expirée"
+
+#: db-module-wrapper.php:265
+#: db-module.php:1383
+#, php-format
+msgid "<b>DB Cache Reloaded Error:</b> cannot include <code>db-functions.php</code> file. Please either reinstall plugin or remove <code>%s</code> file."
+msgstr "<b>DB erreur de la mémoire cache:</b>ne peut pas inclure <code>db-functions.php</code>le fichier. Veuillez réinstaller l'extension ou retirer <code>%s</code> le fichier. "
+
+#: db-module.php:1302
+#, php-format
+msgid "<strong>ERROR</strong>: WordPress %s requires MySQL 4.0.0 or higher"
+msgstr "<strong>ERREUR</strong>: WordPress %s nécessite MySQL 4.0.0 ou supérieur"
+
+#. Plugin Name of an extension
+msgid "DB Cache Reloaded"
+msgstr "DB la mémoire cache est rechargée. "
+
+#. Plugin URI of an extension
+msgid "http://www.poradnik-webmastera.com/projekty/db_cache_reloaded/"
+msgstr "http://www.poradnik-webmastera.com/projekty/db_cache_reloaded/"
+
+#. Description of an extension
+msgid "The fastest cache engine for WordPress, that produces cache of database queries with easy configuration. (Disable and enable caching after update)"
+msgstr "Le moteur de recherche le plus rapide pour Wordpress, qui produit des requêtes de base de données de configuration facile. "
+
+#. Author of an extension
+msgid "Daniel Fruyski"
+msgstr "Daniel Fruyski"
+
+#. Author URI of an extension
+msgid "http://www.poradnik-webmastera.com/"
+msgstr "http://www.poradnik-webmastera.com/"
+
