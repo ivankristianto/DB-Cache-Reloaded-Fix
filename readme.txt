@@ -3,8 +3,8 @@ Contributors: ivankristianto
 Donate link: http://www.ivankristianto.com/portfolio/
 Tags: performance, caching, wp-cache, db-cache, cache
 Requires at least: 3.0
-Tested up to: 3.1.2
-Stable tag: 2.2.4
+Tested up to: 3.4
+Stable tag: 2.4
 
 The fastest cache engine for WordPress, that produces cache of database queries with easy configuration. Compatible with WordPress 3.1
 
@@ -24,9 +24,9 @@ If you are using WordPress 2.9, please use DB Cache Reloaded version 2.0 or neve
 
 If you are using WordPress 3.0, please use DB Cache Reloaded version 2.1 or never - earlier versions are not compatible with WordPress 3.0.
 
-TODO LIST:
+For Web Developer: 
 
-* Support Multi Database (In development)
+If you are a web developer fork me on [Github] (https://github.com/ivankristianto/DB-Cache-Reloaded-Fix)
 
 Available translations:
 
@@ -144,6 +144,9 @@ Note: when you use derivation, make sure you create object of your class very ea
 By default DB Cache Reloaded saves cached queries in `wp-content/db-cache-reloaded-fix/cache`. If you want to change this location, please define `DBCR_CACHE_DIR` constant in your `wp-config.php` file - it should point to existing directory. DB Cache Reloaded will use it instead of default location.
 
 == Changelog ==
+
+= 2.3 =
+* Compatible to WordPress 3.4
 
 = 2.2.4 =
 * Add French (fr_FR) translation

@@ -4,9 +4,9 @@
  * Short Name: db_cache_reloaded
  * Description: The fastest cache engine for WordPress, that produces cache of database queries with easy configuration. (Disable and enable caching after update). Now compatible with WordPress 3.1. 
  * Author: Ivan Kristianto
- * Version: 2.2.4
+ * Version: 2.3
  * Requires at least: 2.7
- * Tested up to: 3.1.2
+ * Tested up to: 3.4
  * Tags: db cache, db cache reloaded, db cache reloaded fix
  * Contributors: Ivan Kristianto
  * WordPress URI: http://wordpress.org/extend/plugins/db-cache-reloaded-fix/

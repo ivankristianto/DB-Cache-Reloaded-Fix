@@ -3,7 +3,7 @@
 Plugin URI: http://www.ivankristianto.com/web-development/programming/db-cache-reloaded-fix-for-wordpress-3-1/1784/
 Description: Database Caching Module provided by DB Cache Reloaded plugin With WordPress 3.1 compatibility.
 Author: Ivan Kristianto
-Version: 1.6.1 (bundled with DB Cache Reloaded 2.2.4)
+Version: 1.7 (bundled with DB Cache Reloaded 2.3)
 Author URI: http://www.ivankristianto.com
 Text Domain: db-cache-reloaded-fix
 */
