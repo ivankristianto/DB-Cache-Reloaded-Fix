@@ -151,7 +151,7 @@ class DBCacheReloaded {
 	function init() {
 		load_plugin_textdomain( 'db-cache-reloaded', false, dirname( plugin_basename( __FILE__ ) ).'/lang' );
 		
-		if ( !wp_next_scheduled('wp_update_plugins') && !defined('WP_INSTALLING') )
+		if ( !wp_next_scheduled('clean_cache_event') && !defined('WP_INSTALLING') )
 			wp_schedule_event(time(), 'hourly', 'clean_cache_event');
 		// 2nd check
 		global $wpdb;
