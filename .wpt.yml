@@ -1,0 +1,22 @@
+type: plugin
+files:
+    src:
+        - '**'
+        - '!node_modules/**'
+        - '!vendor/**'
+        - '!tests/**'
+        - '!test/**'
+        - '!build/**'
+        - '!tmp/**'
+        - '!README.md'
+    main: db.php
+    assets:
+        - assets/*.png
+        - assets/*.svg
+gh:
+    repo: 'https://github.com/ivankristianto/DB-Cache-Reloaded-Fix'
+    username: ivankristianto
+wporg:
+    slug: db-cache-reloaded-fix
+    username: ivankristianto
+    buildPath: build
