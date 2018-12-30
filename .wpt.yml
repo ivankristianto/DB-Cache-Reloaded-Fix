@@ -14,8 +14,9 @@ files:
         - assets/*.png
         - assets/*.svg
 gh:
-    repo: 'https://github.com/ivankristianto/DB-Cache-Reloaded-Fix'
+    repo: ivankristianto/DB-Cache-Reloaded-Fix
     username: ivankristianto
+    branch: master
 wporg:
     slug: db-cache-reloaded-fix
     username: ivankristianto
