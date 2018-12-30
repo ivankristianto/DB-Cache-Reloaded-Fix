@@ -189,22 +189,6 @@ class pcache {
 			}
 		}
 
-		/*if ( is_multisite() ) {
-			$this->set_storage( 'global' );
-			foreach( $this->folders as $folder ) {
-				$path = $this->base_storage . '/';
-				if ( $folder != '' ) {
-					$path .= $folder . '/';
-				}
-				if ( !@mkdir( $path, 0755, true ) ) {
-					return false;
-				}
-				if ( !@copy( DBCR_PATH.'/htaccess', $path.'/.htaccess' ) ) {
-					return false;
-				}
-			}
-		}*/
-
 		return true;
 	}
 

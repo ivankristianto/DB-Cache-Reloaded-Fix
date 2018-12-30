@@ -455,5 +455,3 @@ $wpdb = new DBCR_WPDB_Wrapper( $wpdb );
 $dbcr_wpdb = $wpdb;
 
 }
-
-?>
